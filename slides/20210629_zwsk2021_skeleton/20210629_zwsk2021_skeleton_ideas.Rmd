@@ -1,0 +1,29 @@
+---
+title: "Course in Prediction of Breeding Values"
+subtitle: "<br/>An Introduction"
+author: "Peter von Rohr"
+institute: "Qualitas AG"
+date: "2021/07/01 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Agenda
+
+* Background
+* Terminology
+* Selection
+* Genetics
+* Breeding Values
+* Statistical Models
+
+---
+class: inverse, center, middle
+
+# Get Started
+

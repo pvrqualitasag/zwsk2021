@@ -1,0 +1,60 @@
+---
+title: "First Ideas for Course Material"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{First Ideas for Course Material}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Disclaimer
+Ideas and experiments on the development of course material for the course in prediction of breeding values "ZWSK2021" are documented here.
+
+
+# Background and Terminology
+In a first part, the background of animal breeding is described and some terminology is defined.
+
+
+# Terminology
+
+__Animal Breeding__: In animal breeding a population of animals is changed such that their properties and characteristics are developing towards a previously defined breeding goal. Hence the first step is always to define a breeding goal. 
+
+__Breeding Goal__: A breeding goal consists of a set of traits for which we want to improve our livestock population. 
+
+__Aggregate Genotype__: Mathematical for of the breeding goal. It consists of the weighted sum of the true breeding values of the traits in the breeding goal where the weighting factors correspond to the economic values. 
+
+__Breeding Value__: Measure of the value of the genes passed from parent to offspring
+
+__Economic Value__: Marginal change in profit for a livestock production enterprise when the phenotypic mean of a trait changes by a small amount. 
+
+
+# Animal Breeding Tools
+
+* Selection
+* Mating
+
+
+
+# Process of Selection
+Selection means that parents of a future generation are  selected from a population of livestock animals. The goal of the selection process is that the offspring animals are closer to the previously defined breeding goal, i.e., have a higher aggregate genotype compared to the average of the whole population. 
+
+
+# Mean and Variation
+The process of selection of parents from a population can only work, if the population shows some variation in the traits included in the breeding goal. Let us assume for reasons of simplicity to have just one trait in the breeding goal. Furthermore, we also assume that the trait can be observed on every animal in the population. So it might be something like birth-weight, weaning weight or weight at 350 days of age. As already mentioned selection of parents works only, if animals in the population show some variation in the observed or measured trait. 
+
+
+# Resources
+
+* SECOND BANGALORE SCHOOL ON POPULATION GENETICS AND EVOLUTION: https://www.icts.res.in/program/popgen2016/talks: Talk by Bruce Walsh
+* Mixed Models in Quantitative Genetics: https://www.youtube.com/watch?v=KdhjGP34yQ0
+
+
+
+
